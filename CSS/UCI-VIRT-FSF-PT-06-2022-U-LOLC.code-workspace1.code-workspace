@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\UCI-VIRT-FSF-PT-06-2022-U-LOLC"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Challenge1Accepted"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MeetJohnWatson"
+	}
+}

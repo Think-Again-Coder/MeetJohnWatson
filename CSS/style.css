@@ -1,0 +1,217 @@
+
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 5px;
+    margin: 9px;
+    /* background: linear-gradient(silver, steelBlue); */
+    /* border: solid 2px; */
+  }
+
+  a:link {
+    display: flex;
+    max-width: fit-content;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    border: solid 3px goldenrod;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    color: goldenrod;
+    text-align: center;
+    background-image: url(/images/Glittering-Landscape.png);
+    opacity: 0.8;
+   }
+
+  header h1 {
+    color: goldenrod;
+    text-shadow: 2rem;
+    font-size: 50px;
+    align-content: center;
+  }
+
+  header img {
+  display: flex;
+  text-align: center;
+  opacity: 1;
+  border-radius: 50%;
+  }
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: linear-gradient(plum silver);
+    border: solid 1px goldenrod;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .container1 a:hover {
+    color: goldenrod;
+  }
+  .container1, .item {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+    /* width: fit-content; */
+   } 
+
+   .box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 42px;
+    text-decoration: underline;
+    padding-top: 15px;
+    color: goldenrod;
+    background-color: aliceblue;
+    border: solid 1px goldenrod;
+   }
+
+   .box .item2 {
+    display: flex;
+    width: fit-content;
+    /* position: relative; */
+    /* justify-items:center; */
+    /* justify-content: center;
+    flex-direction: row; */
+   }
+
+   h1 .intro {
+    
+    position: relative;
+    top: 50%;
+    left: auto;
+    width: 95%;
+   }
+
+   .intro {
+    color: purple;
+    display: flex;
+    justify-content: center;
+    border: solid 1px goldenrod;
+    text-align: center;
+    /* height: fit-content; */
+    width: 50%;
+   }
+
+  .container2 {
+    display: flex;
+    background-color: aliceblue;
+    color: goldenrod;
+    align-items: center;
+  }
+
+  .container2 .envelopes {
+    display: flex;
+    justify-content: center;
+    
+    color: goldenrod;
+    align-items: center;
+  }
+
+  h2 {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 42px;
+
+    border: solid 2px goldenrod;
+  }
+
+
+  footer {
+    margin-top: 100px;
+    font-size: small;
+  }
+
+  .item a {
+    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content1 {
+  display: flex;
+  text-align: right;
+}
+
+.content2 {
+  display: flex;
+  text-align: right;
+ 
+}
+
+.content2 img {
+  border: 1px solid gold;
+  border-radius: 18px;
+}
+
+.content3 {
+  display: flex;
+  text-align: center;
+  font-size: 42px;
+  border: solid 1px goldenrod;
+  text-decoration: underline;
+  
+}
+
+.content3 p {
+  display: flex;
+  
+}
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+
+  .envelopes {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+  }
+  
+/* adjusted for 992px or smaller */
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+    background: linear-gradient(steelBlue, silver)
+  }
+  
+  header {
+    background: linear-gradient(steelBlue, silver);
+  }
+}
+
+/* tags are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header {
+    background: linear-gradient(steelBlue, silver);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+  header {
+    background: linear-gradient(steelBlue, silver);
+  }
+}
+

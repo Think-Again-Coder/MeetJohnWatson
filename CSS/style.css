@@ -133,25 +133,17 @@ header img {
 
   .content1 {
     display: flex;
-    font-size: 42px;
+    font-size: 48px;
     justify-content: center;
     align-items: center;
     text-shadow: 2px 2px 8px black;
     background-color: aliceblue;
     border: solid 3px goldenrod;
     color: goldenrod;
-    width: 90%;
+    width: 100%;
     margin-top: 15px;
   }
-/* 
-  .content img {
-    width: 650px;
-    margin: 10%;
-    height: 400px;
-    position: relative;
-    margin-top: -40%;
-  } */
-  
+
   .content1 .image1 {
     display: flex;
     flex-shrink: 2em;
@@ -161,6 +153,16 @@ header img {
 
   }
 
+  .image1 h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: goldenrod;
+    width: 60%;
+  }
+
+  /* This is the beginning of the main - Work section */
   .bigBox {
     display: flex;
     flex-direction: column;
@@ -173,8 +175,7 @@ header img {
     justify-content: center;
     width: 100%;
     text-align: center;
-    align-items: center;
-    font-size: 42px;
+    font-size: 48px;
     text-shadow: 2px 2px 8px black;
     border: solid 3px goldenrod;
     background-color: aliceblue;
@@ -182,47 +183,52 @@ header img {
     color: goldenrod;
    }
 
-  .box .item2 {
+   .item2 {
     display: flex;
-    text-align: center;
-    position: relative;
-    justify-content: space-around;
-    border: solid 3px goldenrod;
-    /* transform: translate(-50%, -50%); */
+    justify-content: center;
+    flex-direction: row-reverse;
    }
 
-   /* This is the start of Main section - About Me backstory */
+  .box .item2 {
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    border: solid 3px goldenrod;
+   }
+
+   /* This is the start of main section - About Me backstory */
   .content3 {
     display: flex;
-    background-color: aliceblue;
-    color: goldenrod;
+    flex-direction: column;
+    
   }
 
   
- .content3 {
+ .content3 h2 {
   display: flex;
   flex-direction: column;
-  
+  background-color: aliceblue;
+  text-shadow: 2px 2px 8px black;
   text-align: center;
-  font-size: 39px;
   border: solid 3px goldenrod;
-  text-decoration: underline;
-  
 }
 
   .John {
     display: flex;
     flex-direction: column;
-    text-shadow: 2px 2px 8px black;
+    color: goldenrod;
+    font-size: 39px;
+    text-decoration: underline;
   }
 
   .story {
+    padding: 1px;
     display: flex;
-  }
-
-  .story p {
-    display: flex;
+    align-items: center;
+    flex-direction: row;
     font-size: large;
+    flex-wrap: wrap;
   }
 
   /* This is the final section labeled Footer including contact links */
@@ -235,7 +241,7 @@ header img {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 42px;
+    font-size: 39px;
     text-shadow: 2px 2px 8px black;
     border: solid 3px goldenrod;
     background-color: aliceblue;
@@ -255,7 +261,6 @@ header img {
 
  .container3 .envelopes {
     display: flex;
-    justify-content: center;
     color: goldenrod;
     align-items: center;
   }

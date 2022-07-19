@@ -1,188 +1,265 @@
 
 * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
     margin: 9px;
-    /* background: linear-gradient(silver, steelBlue); */
     /* border: solid 2px; */
+  }
+
+  .rollover:hover {
+    background: goldenrod;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
 
   a:link {
     display: flex;
     max-width: fit-content;
+    flex-direction: center;
+    justify-content: center;
     justify-content: space-around;
     text-decoration: none;
   }
 
-  header {
-    display: flex;
-    border: solid 3px goldenrod;
-    justify-content: center;
-    align-items: center;
-    width: 99%;
-    height: 100%;
-    color: goldenrod;
-    text-align: center;
-    background-image: url(/images/Glittering-Landscape.png);
-    opacity: 0.8;
-   }
-
-  header h1 {
-    color: goldenrod;
-    text-shadow: 2rem;
-    font-size: 50px;
-    align-content: center;
+header {
+  display: flex;
+  border: solid 3px goldenrod;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-shadow: 8px 8px 12px black;
+  flex-wrap: wrap;
+  color: goldenrod;
+  text-align: center;
+  background-image: url(/images/Glittering-Landscape.png);
+  opacity: 0.85;
+  
   }
 
-  header img {
+header h1 {
+  color: goldenrod;
+  text-shadow: 2rem;
+  font-size: 50px;
+  align-content: center;
+}
+
+header img {
   display: flex;
   text-align: center;
-  opacity: 1;
+  opacity: 0.8;
   border-radius: 50%;
-  }
+}
 
+  /* Container1 is Navigation links */
   .container1 {
     display: flex;
+    padding: 2px;
     flex-wrap: wrap;
-    background-color: linear-gradient(plum silver);
-    border: solid 1px goldenrod;
+    border: solid 3px goldenrod;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 39px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 3px black;
   }
 
+  /* This declaration helps to create the hover affect for the links and its separated from the other declarations */
   .container1 a:hover {
     color: goldenrod;
-  }
+   }
+  
   .container1, .item {
     display: flex;
+    color: goldenrod;
     background-color: aliceblue;
     justify-content: space-around;
     /* width: fit-content; */
    } 
-
-   .box {
+   /* This is a quick introduction  */
+   .nice {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    font-size: 42px;
-    text-decoration: underline;
-    padding-top: 15px;
-    color: goldenrod;
-    background-color: aliceblue;
-    border: solid 1px goldenrod;
-   }
-
-   .box .item2 {
-    display: flex;
-    width: fit-content;
-    /* position: relative; */
-    /* justify-items:center; */
-    /* justify-content: center;
-    flex-direction: row; */
-   }
-
-   h1 .intro {
-    
+    flex-direction: center;
+    align-items: center;
     position: relative;
-    top: 50%;
-    left: auto;
-    width: 95%;
+  
    }
 
    .intro {
-    color: purple;
-    display: flex;
-    justify-content: center;
-    border: solid 1px goldenrod;
+    margin: 1em 0;
+    bottom: 10px;
+    padding: 2em;
+    box-shadow: 2px 3px 20px black, 0 0 30px #8a4d0f inset;
+    background: #fffef0;
     text-align: center;
-    /* height: fit-content; */
-    width: 50%;
+    color: goldenrod;
+    width: 60%;
    }
 
-  .container2 {
-    display: flex;
-    background-color: aliceblue;
-    color: goldenrod;
-    align-items: center;
-  }
-
-  .container2 .envelopes {
-    display: flex;
-    justify-content: center;
-    
-    color: goldenrod;
-    align-items: center;
-  }
-
-  h2 {
+ 
+ h2 {
    display: flex;
    flex-direction: row;
   }
 
-  .container2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 42px;
-
-    border: solid 2px goldenrod;
-  }
-
-
-  footer {
-    margin-top: 100px;
-    font-size: small;
-  }
-
-  .item a {
+ .item a {
     
     display: flex;
     flex-direction: row-reverse;
 }
 
-.content1 {
-  display: flex;
-  text-align: right;
-}
-
-.content2 {
+ .content2 {
   display: flex;
   text-align: right;
  
 }
 
-.content2 img {
+ .content2 img {
   border: 1px solid gold;
   border-radius: 18px;
 }
 
-.content3 {
+  /* This is the start of Projects which includes the large picture of the main web application */
+.container2 {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  font-size: 42px;
-  border: solid 1px goldenrod;
+  text-decoration: underline; 
+  color: goldenrod;
+  margin: 15px;
+ }
+
+  .content1 {
+    display: flex;
+    font-size: 42px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 8px black;
+    background-color: aliceblue;
+    border: solid 3px goldenrod;
+    color: goldenrod;
+    width: 90%;
+    margin-top: 15px;
+  }
+/* 
+  .content img {
+    width: 650px;
+    margin: 10%;
+    height: 400px;
+    position: relative;
+    margin-top: -40%;
+  } */
+  
+  .content1 .image1 {
+    display: flex;
+    flex-shrink: 2em;
+    border: solid 3px goldenrod;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .bigBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+   }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 42px;
+    text-shadow: 2px 2px 8px black;
+    border: solid 3px goldenrod;
+    background-color: aliceblue;
+    text-decoration: underline;
+    color: goldenrod;
+   }
+
+  .box .item2 {
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: space-around;
+    border: solid 3px goldenrod;
+    /* transform: translate(-50%, -50%); */
+   }
+
+   /* This is the start of Main section - About Me backstory */
+  .content3 {
+    display: flex;
+    background-color: aliceblue;
+    color: goldenrod;
+  }
+
+  
+ .content3 {
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  font-size: 39px;
+  border: solid 3px goldenrod;
   text-decoration: underline;
   
 }
 
-.content3 p {
-  display: flex;
-  
-}
+  .John {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 8px black;
+  }
+
+  .story {
+    display: flex;
+  }
+
+  .story p {
+    display: flex;
+    font-size: large;
+  }
+
+  /* This is the final section labeled Footer including contact links */
+  footer {
+    margin-top: 60px;
+  }
+
   .container3 {
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 42px;
+    text-shadow: 2px 2px 8px black;
+    border: solid 3px goldenrod;
+    background-color: aliceblue;
+    text-decoration: underline;
+    color: goldenrod;
   }
 
   .envelopes {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-color: goldenrod;
+    margin: 1em 0;
+    bottom: 10px;
+    padding: 1em;
+    box-shadow: 2px 3px 20px black, 0 0 30px #8a4d0f inset;
+    background: #fffef0;
+    text-align: center;
+    color: goldenrod;
   }
+
+ .container3 .envelopes {
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    align-items: center;
+  }
+
   
 /* adjusted for 992px or smaller */
 @media screen and (max-width: 992px) {
@@ -192,6 +269,7 @@
   }
   
   header {
+    background-image: url(/images/Glittering-Landscape.png);
     background: linear-gradient(steelBlue, silver);
   }
 }

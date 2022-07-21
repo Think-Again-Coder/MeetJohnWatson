@@ -20,6 +20,6 @@ Overall the portfolio page was made to be responsive for a variety of screen siz
 --- 
 **Check out the web page below:**
 ##
-[Meet John Watson Profile](https://github.com/Think-Again-Coder/MeetJohnWatson) 
+[Meet John Watson Profile](https://think-again-coder.github.io/MeetJohnWatson/) 
 ## 
 ## - John Watson -
